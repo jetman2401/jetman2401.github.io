@@ -93,22 +93,21 @@ Note: before anything can be done with the internet, it must be enabled first. I
 From this point on, documentation will occur in the first-person
 
 I chose GNOME as my desktop environment of choice, and installed it with pacman -S gnome, whenever it asked for me to make a choice between certain packages I just hit enter to choose the defaults as I am not overly familiar with GNOME (let alone any other Linux desktop environment). The VM then installed 544 packages. I proceeded to enable gdm.service and reboot the VM. Now, thee GUI/Desktop Environment pops up when the VM boots. I logged into the root account and added accounts for both myself and ‘codi’ and set the password for ‘codi’ as instructed. I also changed the Desktop Environment to Dark Mode and chose a background picture.
-![arch_documentation.md](AL_P1.png)
+![AL_P1](https://user-images.githubusercontent.com/117373527/201235675-355de26d-23d5-40cc-abf3-4714e2b7a10c.png)
 
-![arch_documentation.md](AL_P2.png)
+![AL_P2](https://user-images.githubusercontent.com/117373527/201235708-7f4b85aa-67bd-4251-8591-cadcafdb63ed.png)
 
 I installed ssh and remoted into the gateway given to me in the assignment description as shown below
 
-![arch_documentation.md](AL_P3.png)
+![AL_P3](https://user-images.githubusercontent.com/117373527/201235739-17308010-b2e7-4dda-ad04-77aa4f7500e3.png)
 
-![arch_documentation.md](AL_P4.png)
+![AL_P4](https://user-images.githubusercontent.com/117373527/201235757-5120d8c9-0795-47ef-b080-85a48c66dbc5.png)
 
 NOTE: No matter how much googling I did, I could not figure out how to permanently change the color output of ksh. As such, I’m just going to take the lowered grade on this assignment. I can’t find any kind of .kshrc or .profile file in my home directory like the answers on Google says I should. As such, I gave up on trying to colorize my shell. The same issue also prevented me from aliasing KornShell.
 
 Below are examples of the aliases I created:
-![arch_documentation.md](AL_P5.png)
+![AL_P5](https://user-images.githubusercontent.com/117373527/201235781-99e86d39-5239-4760-8f7c-d41d5b3763c8.png)
 
+![AL_P6](https://user-images.githubusercontent.com/117373527/201235803-6eba7296-ab9b-45e9-b9bf-4b84caa51176.png)
 
-![arch_documentation.md](AL_P6.png)
-
-![arch_documentation.md](AL_P7.png)
+![AL_P7](https://user-images.githubusercontent.com/117373527/201235834-da27ab13-16d0-4a09-92fb-508a639b7f40.png)
