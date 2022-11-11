@@ -106,6 +106,7 @@ I installed ssh and remoted into the gateway given to me in the assignment descr
 NOTE: No matter how much googling I did, I could not figure out how to permanently change the color output of ksh. As such, I’m just going to take the lowered grade on this assignment. I can’t find any kind of .kshrc or .profile file in my home directory like the answers on Google says I should. As such, I gave up on trying to colorize my shell. The same issue also prevented me from aliasing KornShell.
 
 Below are examples of the aliases I created:
+
 ![AL_P5](https://user-images.githubusercontent.com/117373527/201235781-99e86d39-5239-4760-8f7c-d41d5b3763c8.png)
 
 ![AL_P6](https://user-images.githubusercontent.com/117373527/201235803-6eba7296-ab9b-45e9-b9bf-4b84caa51176.png)
