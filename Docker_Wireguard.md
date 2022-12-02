@@ -74,31 +74,31 @@ services:
 	'cd ~/wireguard/'
 ## 5a. Test your VPN on a mobile device
 1. Before we turn on Wireguard, we first look at our IP address without it using IPleak.net:
-![[WG_7.jpg]]
+![WG_7](https://user-images.githubusercontent.com/117373527/205385969-ebb6e64e-2e0c-4e70-9905-fd82d2e89d6e.jpg)
 2. 2. Now, we use this command: 'docker-compose up -d' . This will start Wireguard
 3. To connect our phone to wireguard, we will enter the following command: 'docker-compose logs -f wireguard' . This will print out three QR codes. If this doesn't work for some reason, you can also cd into peer_phone1 and type 'qrencode -t ansiutf8 < peer_phone1.conf' . Download the Wireguard app, and open it. Once it is open, click the plus symbol:
-![[WG_8.jpg]]
+![WG_8](https://user-images.githubusercontent.com/117373527/205385979-691e1d47-84e1-482e-b421-816ec57847cb.jpg)
 	Then, tap the SCAN FROM QR CODE button:
-![[WG_9.jpg]]
+![WG_9](https://user-images.githubusercontent.com/117373527/205385999-da336363-5379-4743-9311-e0e8e42dbc27.jpg)
 	Scan the QR code on your SSH and then on your phone type in a name for your tunnel. After this has all been done, it should look like this on your phone:
-![[WG_10.jpg]]
+![WG_10](https://user-images.githubusercontent.com/117373527/205386023-3cf71166-5a1e-4fab-9256-7fc050d76a5d.jpg)
 	And if you tap on the tunnel, it should you more information about it like so:
-![[WG_12.jpg]]
+![WG_12](https://user-images.githubusercontent.com/117373527/205386034-a671dc0d-fe31-4658-a0af-5ae4c6abf549.jpg)
 4. Tap the slider to turn on Wireguard, then go back to IPleak.net and refresh it. It should now show a different IP address like so:
-![[WG_11.jpg]]
+![WG_11](https://user-images.githubusercontent.com/117373527/205386047-f6d7943b-cf9a-46f1-83cc-d93858829598.jpg)
 ## 5b. Test your VPN on a laptop
 1. Before we turn on Wireguard, we first look at our IP address without it using IPleak.net:
-	![[WG_1.png]]
+![WG_1](https://user-images.githubusercontent.com/117373527/205385764-22b43a28-02e1-4649-87bb-45aebc3bd1df.png)
 2. Now, we use this command: 'docker-compose up -d' . This will start Wireguard
 3. To connect our first PC to Wireguard, first we go to the following location: 'cd ~/wireguard/config/peer_pc1' . Once we have changed directory, we switch applications to WinSCP
 4. In WinSCP, we use the public IPv4 address provided by DO, root as the username, and the password we set when creating the Droplet. Then, we log in
-	![[WG_2.png]]
+![WG_2](https://user-images.githubusercontent.com/117373527/205385788-3e2a5c22-b4fc-4d03-a6fb-cd42edd1bca5.png)
 5. Now we double-click wireguard followed by config, and finally peer_pc1. We then right-click peer_pc1.conf and click Download...
-	![[WG_3.png]]
+![WG_3](https://user-images.githubusercontent.com/117373527/205385811-ce2ea777-6dcb-42b8-9ed9-b4fb15221032.png)
 	This should then give you the option of choosing where you save the file. REMEMBER WHERE YOU SAVE THIS FILE
 6. Download Wireguard off of the Internet. Once this is done, open Wireguard and click Add Tunnel. You will then, using the screen that pops up, direct Wireguard to the .conf file you just downloaded from your Droplet. Once all is said and done, your Wireguard should look like this:
-	![[WG_4.png]]
+![WG_4](https://user-images.githubusercontent.com/117373527/205385915-18b75ab0-c24f-4ba7-a25f-ae2bf909f69f.png)
 	Click Activate and then your Wireguard will look something like this:
-![[WG_6.png]]
+![WG_6](https://user-images.githubusercontent.com/117373527/205385934-65628d73-7eb5-4109-b845-09300d6e5d7b.png)
 7. Refresh IPleak.net, and make sure your IP address is different:
-	![[WG_5.png]]
+![WG_5](https://user-images.githubusercontent.com/117373527/205385947-8decfb37-86e4-4553-9228-05e145e2ea4f.png)
