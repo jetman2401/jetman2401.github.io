@@ -6,4 +6,4 @@
 ## Click the link below to access Seth's documentation for the Docker project, Option B - WordPress: 
 [Seth's Docker Project, Option B - WordPress Documentation](https://jetman2401.github.io/Docker_WordPress)
 
-##Click the link below to access Seth's documentation for the Wireguard Docker project documentation:
+## Click the link below to access Seth's documentation for the Wireguard Docker project documentation:
